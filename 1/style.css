@@ -1,0 +1,234 @@
+
+*{
+	//font-family: 'Roboto', sans-serif;
+}
+
+/*Css for .welcome */
+
+.welcome p,a{
+	color: #555 !important;
+}
+
+.btn-group:hover .dropdown-menu{
+	display: block;
+	transition: all 0.5s;
+}
+
+div.welcome ul.nav > li.nav-item:hover > div.dropdown-menu{
+	display: block;
+	position: absolute;
+	top: 88%;
+	transition: all 0.5s;
+}
+
+div.welcome ul.nav > li.nav-item > div.dropdown-menu > a:hover{
+	color: #cc2121 !important;
+	position: relative;
+	transition: all 0.5s;
+}
+
+/*css for responsive*/
+
+@media screen and (max-width: 768px) {
+	div.welcome{
+		display: none !important;
+	}
+
+	div.navigation-bar span.navbar-text{
+		display: none !important;
+	}
+
+	div.slide-bar div.text-slide h1{
+		font-size: 1em;
+	}
+
+	div.slide-bar div.text-slide{
+		width: 100% !important;
+		text-align: left !important;
+		position: absolute !important;
+	   padding-bottom: 0;
+	}
+
+}
+
+
+@media screen and (min-width: 769px) {
+	div.slide-bar div.text-slide{
+	text-align: left !important;
+	position: absolute !important;
+	left: 10% !important;
+	top: 20% !important;
+	width: 40%;
+	}
+}
+
+.container{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.row{
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/*Css for .navigation-bar*/
+
+.navigation-bar a:hover{
+	color: #cc2121 !important;
+} 
+
+.navigation-bar span:hover{
+	color: #cc2121 !important;
+}
+
+.navigation-bar .badge:hover{
+	color: #fff !important;
+}
+
+.navigation-bar .notify{
+	top: 0;
+	left: 69%;
+	background: #cc2121 !important;
+}
+
+.navigation-bar span.dropdown:hover span.dropdown-menu{
+	display: block;
+	top: 80%;
+	transition: all 0.5s;
+}
+
+div.navigation-bar nav.navbar ul.navbar-nav li.dropdown:hover > div.dropdown-menu{
+	display: block;
+	transition: all 0.5s;
+}
+
+div.navigation-bar nav.navbar ul.navbar-nav li:first-child > a{
+	color: #cc2121 !important;
+}
+
+div.navigation-bar div.dropdown-menu{
+	margin-top: 0 !important;
+}
+
+div.navgation-bar a.a1{
+	background-color: #fff !important;
+}
+
+div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover{
+	opacity: 0.6 !important;
+	background-color: #fff !important;
+	transition: all 0.5s;
+}
+
+/*div.slide-bar div.text-slide{
+	text-align: left !important;
+	position: absolute !important;
+	left: 10% !important;
+	top: 20% !important;
+	width: 40%;
+}*/
+
+div.slide-bar div.text-slide h1{
+	color: #242424 !important;
+}
+
+div.slide-bar div.text-slide button{
+	background-color: #242424 !important;
+}
+
+div.promotion div.card-img-overlay a{
+	color: #242424 !important;
+}
+
+div.promotion div.card-img-overlay a:last-child:hover{
+	text-decoration: none !important;
+	color: #cc2121 !important; 
+}
+
+div.promotion div.card-img-overlay a:hover{
+	text-decoration: none !important;
+	color: #242424 !important; 
+}
+
+div.promotion div.card-img-overlay p:last-child{
+	border-bottom-width: 2px !important;
+}
+
+div.promotion  div.card:hover img{
+	opacity: 0.5 !important; 
+	transition: all 0.3s !important; 
+}
+
+/*css for products*/
+
+div.products a.title-product{
+	text-decoration: none !important;
+}
+
+div.products div.colors a{
+	width: 15px !important;
+	height: 15px !important;
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+div.products div.colors a.color-first{
+	background-color: lightblue !important;
+}
+
+div.products div.colors a.color-second{
+	background-color: #aa9e78 !important;
+}
+
+div.products div.colors a.color-third{
+	background-color: #808080;
+}
+
+div.products div.colors a.color-four{
+	background-color: #964B00;
+}
+
+div.products a.text-product:hover{
+	color: #cc2121 !important; 
+}
+
+div.products div.price-product > span.h5{
+	color: #cc2121 !important;
+}
+
+div.products div.price-product > span.h6{
+	text-decoration: line-through !important;
+}
+
+div.products div.options-product{
+	right:0;
+	top: 0;
+}
+
+div.products button.add-to-cart{
+	background: #cc2121 !important;
+}
+
+div.products button.add-to-cart:hover{
+	//border: 1px solid #555 !important;
+	//color: #cc2121 !important;
+	background: #555 !important;
+	transition: all 1s !important;
+}
+
+div.products div.row div.col-md-3 div.card img{
+	max-width: 253px !important;
+	max-height: 253px !important;
+	margin: 0 auto !important;
+}
+
+div.products .label-red{
+	background: #cc2121 !important;
+}
+
+div.products .label-black{
+	background: #242424 !important;
+}
