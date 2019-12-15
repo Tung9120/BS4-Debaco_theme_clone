@@ -139,8 +139,20 @@ div.slide-bar div.text-slide button{
 	background-color: #242424 !important;
 }
 
-div.promotion div.card-img-overlay a{
+/*css for div.promotion*/
+
+div.promotion div.card div.card-img-overlay p a.title{
+	color: #6c757d!important;
+	font-weight: normal !important;
+}
+
+div.promotion div.card div.card-img-overlay h4 a:first-child{
+	color: #242429 !important;
+}
+
+div.promotion div.card-img-overlay p a:last-child{
 	color: #242424 !important;
+	font-weight: bold !important;
 }
 
 div.promotion div.card-img-overlay a:last-child:hover{
