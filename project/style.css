@@ -208,7 +208,21 @@ div.trend-products div.text-price span.h6{
 	text-decoration: line-through !important; 
 }
 
+div.trend-products nav.color-select a.c-light-blue{
+	color: #b0c4de !important;
+}
 
+div.trend-products nav.color-select a.c-darktan{
+	color: #aa9e78 !important;
+}
+
+div.trend-products nav.color-select a.c-gray{
+	color: #808080 !important;
+}
+
+div.trend-products nav.color-select a.c-brown{
+	color: #964B00 !important;
+}
 
 
 
