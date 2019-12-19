@@ -176,3 +176,39 @@ div.promotion  div.card:hover img{
 
 /*css for trend-products*/
 
+div.trend-products div.container div.row div.col-md-3,div.col-12 > div.card{
+	min-width: 270px !important;
+}
+
+div.trend-products div.card-img-product div.btn-add-to-card button{
+	background: #fff !important;
+}
+
+div.trend-products div.card-img-product div.btn-add-to-card button:hover{
+	background: #fff !important;
+	color: #cc2121 !important;
+	transition: all 0.5s;
+}
+
+div.trend-products div.card-img-product div.btn-option button{
+	background: #fff !important;
+}
+
+div.trend-products div.card-img-product div.btn-option button:hover{
+	background: #fff !important;
+	color: #cc2121 !important;
+	transition: all 0.5s;
+}
+
+div.trend-products div.text-price span.h5{
+	color: #CC2121;
+}
+
+div.trend-products div.text-price span.h6{
+	text-decoration: line-through !important; 
+}
+
+
+
+
+
