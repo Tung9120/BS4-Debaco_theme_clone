@@ -224,5 +224,27 @@ div.trend-products nav.color-select a.c-brown{
 	color: #964B00 !important;
 }
 
+/*animation for div.btn-option and div.btn-add-to-card*/
 
+div.trend-products div.a-product div.btn-option{
+	display: none !important; 
 
+}
+
+div.trend-products div.a-product div.btn-add-to-card{
+	display: none !important;
+}
+
+div.trend-products div.a-product:hover div.btn-option{
+	display: block !important; 
+	transition: all 1s;
+}
+
+div.trend-products div.a-product:hover div.btn-add-to-card{
+	display: block !important;
+	transition: all 1s;
+}
+
+div.trend-products div.a-product p a.title-product{
+	color: #CC2121 !important;
+}
