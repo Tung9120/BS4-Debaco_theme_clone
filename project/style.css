@@ -1,126 +1,126 @@
-
-*{
-	//font-family: 'Roboto', sans-serif;
+* {
+    //font-family: 'Roboto', sans-serif;
 }
 
 /*Css for .welcome */
 
-.welcome p,a{
-	color: #555 !important;
+.welcome p,
+a {
+    color: #555 !important;
 }
 
-.btn-group:hover .dropdown-menu{
-	display: block;
-	transition: all 0.5s;
+.btn-group:hover .dropdown-menu {
+    display: block;
+    transition: all 0.5s;
 }
 
-div.welcome ul.nav > li.nav-item:hover > div.dropdown-menu{
-	display: block;
-	position: absolute;
-	top: 88%;
-	transition: all 0.5s;
+div.welcome ul.nav>li.nav-item:hover>div.dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 88%;
+    transition: all 0.5s;
 }
 
-div.welcome ul.nav > li.nav-item > div.dropdown-menu > a:hover{
-	color: #cc2121 !important;
-	position: relative;
-	transition: all 0.5s;
+div.welcome ul.nav>li.nav-item>div.dropdown-menu>a:hover {
+    color: #cc2121 !important;
+    position: relative;
+    transition: all 0.5s;
 }
 
 /*css for responsive*/
 
 @media screen and (max-width: 768px) {
-	div.welcome{
-		display: none !important;
-	}
+    div.welcome {
+        display: none !important;
+    }
 
-	div.navigation-bar span.navbar-text{
-		display: none !important;
-	}
+    div.navigation-bar span.navbar-text {
+        display: none !important;
+    }
 
-	div.slide-bar div.text-slide h1{
-		font-size: 1em;
-	}
+    div.slide-bar div.text-slide h1 {
+        font-size: 1em;
+    }
 
-	div.slide-bar div.text-slide{
-		width: 100% !important;
-		text-align: left !important;
-		position: absolute !important;
-	   padding-bottom: 0;
-	}
+    div.slide-bar div.text-slide {
+        width: 100% !important;
+        text-align: left !important;
+        position: absolute !important;
+        padding-bottom: 0;
+    }
 
 }
 
 
 @media screen and (min-width: 769px) {
-	div.slide-bar div.text-slide{
-	text-align: left !important;
-	position: absolute !important;
-	left: 10% !important;
-	top: 20% !important;
-	width: 40%;
-	}
+    div.slide-bar div.text-slide {
+        text-align: left !important;
+        position: absolute !important;
+        left: 10% !important;
+        top: 20% !important;
+        width: 40%;
+    }
 }
 
-.container{
-	padding-left: 0;
-	padding-right: 0;
+.container {
+    padding-left: 0;
+    padding-right: 0;
 }
 
-.row{
-	padding-left: 0;
-	padding-right: 0;
-	margin-left: 0;
-	margin-right: 0;
+.row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /*Css for .navigation-bar*/
 
-.navigation-bar a:hover{
-	color: #cc2121 !important;
-} 
-
-.navigation-bar span:hover{
-	color: #cc2121 !important;
+.navigation-bar a:hover {
+    color: #cc2121 !important;
 }
 
-.navigation-bar .badge:hover{
-	color: #fff !important;
+.navigation-bar span:hover {
+    color: #cc2121 !important;
 }
 
-.navigation-bar .notify{
-	top: 0;
-	left: 69%;
-	background: #cc2121 !important;
+.navigation-bar .badge:hover {
+    color: #fff !important;
 }
 
-.navigation-bar span.dropdown:hover span.dropdown-menu{
-	display: block;
-	top: 80%;
-	transition: all 0.5s;
+.navigation-bar .notify {
+    top: 0;
+    left: 69%;
+    background: #cc2121 !important;
 }
 
-div.navigation-bar nav.navbar ul.navbar-nav li.dropdown:hover > div.dropdown-menu{
-	display: block;
-	transition: all 0.5s;
+.navigation-bar span.dropdown:hover span.dropdown-menu {
+    display: block;
+    top: 80%;
+    transition: all 0.5s;
 }
 
-div.navigation-bar nav.navbar ul.navbar-nav li:first-child > a{
-	color: #cc2121 !important;
+div.navigation-bar nav.navbar ul.navbar-nav li.dropdown:hover>div.dropdown-menu {
+    display: block;
+    transition: all 0.5s;
 }
 
-div.navigation-bar div.dropdown-menu{
-	margin-top: 0 !important;
+div.navigation-bar nav.navbar ul.navbar-nav li:first-child>a {
+    color: #cc2121 !important;
 }
 
-div.navgation-bar a.a1{
-	background-color: #fff !important;
+div.navigation-bar div.dropdown-menu {
+    margin-top: 0 !important;
 }
 
-div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover{
-	opacity: 0.6 !important;
-	background-color: #fff !important;
-	transition: all 0.5s;
+div.navgation-bar a.a1 {
+    background-color: #fff !important;
+}
+
+div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover {
+    opacity: 0.6 !important;
+    background-color: #fff !important;
+    transition: all 0.5s;
 }
 
 /*div.slide-bar div.text-slide{
@@ -131,120 +131,138 @@ div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover{
 	width: 40%;
 }*/
 
-div.slide-bar div.text-slide h1{
-	color: #242424 !important;
+div.slide-bar div.text-slide h1 {
+    color: #242424 !important;
 }
 
-div.slide-bar div.text-slide button{
-	background-color: #242424 !important;
+div.slide-bar div.text-slide button {
+    background-color: #242424 !important;
 }
 
 /*css for div.promotion*/
 
-div.promotion div.card div.card-img-overlay p a.title{
-	color: #6c757d!important;
-	font-weight: normal !important;
+div.promotion div.card div.card-img-overlay p a.title {
+    color: #6c757d !important;
+    font-weight: normal !important;
 }
 
-div.promotion div.card div.card-img-overlay h4 a:first-child{
-	color: #242429 !important;
+div.promotion div.card div.card-img-overlay h4 a:first-child {
+    color: #242429 !important;
 }
 
-div.promotion div.card-img-overlay p a:last-child{
-	color: #242424 !important;
-	font-weight: bold !important;
+div.promotion div.card-img-overlay p a:last-child {
+    color: #242424 !important;
+    font-weight: bold !important;
 }
 
-div.promotion div.card-img-overlay a:last-child:hover{
-	text-decoration: none !important;
-	color: #cc2121 !important; 
+div.promotion div.card-img-overlay a:last-child:hover {
+    text-decoration: none !important;
+    color: #cc2121 !important;
 }
 
-div.promotion div.card-img-overlay a:hover{
-	text-decoration: none !important;
-	color: #242424 !important; 
+div.promotion div.card-img-overlay a:hover {
+    text-decoration: none !important;
+    color: #242424 !important;
 }
 
-div.promotion div.card-img-overlay p:last-child{
-	border-bottom-width: 2px !important;
+div.promotion div.card-img-overlay p:last-child {
+    border-bottom-width: 2px !important;
 }
 
-div.promotion  div.card:hover img{
-	opacity: 0.5 !important; 
-	transition: all 0.3s !important; 
+div.promotion div.card:hover img {
+    opacity: 0.5 !important;
+    transition: all 0.3s !important;
 }
 
 /*css for trend-products*/
 
-div.trend-products div.container div.row div.col-md-3,div.col-12 > div.card{
-	min-width: 270px !important;
+div.trend-products div.container div.row div.col-md-3,
+div.col-12>div.card {
+    min-width: 270px !important;
 }
 
-div.trend-products div.card-img-product div.btn-add-to-card button{
-	background: #fff !important;
+div.trend-products div.card-img-product div.btn-add-to-card button {
+    background: #fff !important;
 }
 
-div.trend-products div.card-img-product div.btn-add-to-card button:hover{
-	background: #fff !important;
-	color: #cc2121 !important;
-	transition: all 0.5s;
+div.trend-products div.card-img-product div.btn-add-to-card button:hover {
+    background: #fff !important;
+    color: #cc2121 !important;
+    transition: all 0.5s;
 }
 
-div.trend-products div.card-img-product div.btn-option button{
-	background: #fff !important;
+div.trend-products div.card-img-product div.btn-option button {
+    background: #fff !important;
 }
 
-div.trend-products div.card-img-product div.btn-option button:hover{
-	background: #fff !important;
-	color: #cc2121 !important;
-	transition: all 0.5s;
+div.trend-products div.card-img-product div.btn-option button:hover {
+    background: #fff !important;
+    color: #cc2121 !important;
+    transition: all 0.5s;
 }
 
-div.trend-products div.text-price span.h5{
-	color: #CC2121;
+div.trend-products div.text-price span.h5 {
+    color: #CC2121;
 }
 
-div.trend-products div.text-price span.h6{
-	text-decoration: line-through !important; 
+div.trend-products div.text-price span.h6 {
+    text-decoration: line-through !important;
 }
 
-div.trend-products nav.color-select a.c-light-blue{
-	color: #b0c4de !important;
+div.trend-products nav.color-select a.c-light-blue {
+    color: #b0c4de !important;
 }
 
-div.trend-products nav.color-select a.c-darktan{
-	color: #aa9e78 !important;
+div.trend-products nav.color-select a.c-darktan {
+    color: #aa9e78 !important;
 }
 
-div.trend-products nav.color-select a.c-gray{
-	color: #808080 !important;
+div.trend-products nav.color-select a.c-gray {
+    color: #808080 !important;
 }
 
-div.trend-products nav.color-select a.c-brown{
-	color: #964B00 !important;
+div.trend-products nav.color-select a.c-brown {
+    color: #964B00 !important;
 }
 
 /*animation for div.btn-option and div.btn-add-to-card*/
 
-div.trend-products div.a-product div.btn-option{
-	display: none !important; 
+div.trend-products div.a-product div.btn-option {
+    display: none !important;
 
 }
 
-div.trend-products div.a-product div.btn-add-to-card{
-	display: none !important;
+div.trend-products div.a-product div.btn-add-to-card {
+    display: none !important;
 }
 
-div.trend-products div.a-product:hover div.btn-option{
-	display: block !important; 
-	transition: all 1s;
+div.trend-products div.a-product:hover div.btn-option {
+    display: block !important;
+    transition: all 1s;
 }
 
-div.trend-products div.a-product:hover div.btn-add-to-card{
-	display: block !important;
-	transition: all 1s;
+div.trend-products div.a-product:hover div.btn-add-to-card {
+    display: block !important;
+    transition: all 1s;
 }
 
-div.trend-products div.a-product p a.title-product{
-	color: #CC2121 !important;
+div.trend-products div.a-product p a.title-product {
+    color: #CC2121 !important;
+}
+
+/* CSS for div.product-category */
+
+div.product-category p.title-category {
+    color: #242424 !important;
+}
+
+div.product-category p.shop-now a{
+    color: #242424 !important;
+    text-decoration: none !important;
+    border-bottom: 2px solid #cc2121 !important;
+}
+
+div.product-category .shop-now a:hover {
+    color: #CC2121 !important;
+    transition: all 0.5s !important;
 }
