@@ -266,3 +266,15 @@ div.product-category .shop-now a:hover {
     color: #CC2121 !important;
     transition: all 0.5s !important;
 }
+
+div.product-category img.img-product-category{
+    min-height: 340px !important;
+}
+
+/* Responsive for div.product-category */
+
+@media (max-width: 576px) {
+    div.product-category img.img-product-category{
+        max-height: 270px !important;
+    }
+}
