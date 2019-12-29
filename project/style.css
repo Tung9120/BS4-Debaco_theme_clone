@@ -124,11 +124,11 @@ div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover {
 }
 
 /*div.slide-bar div.text-slide{
-	text-align: left !important;
-	position: absolute !important;
-	left: 10% !important;
-	top: 20% !important;
-	width: 40%;
+    text-align: left !important;
+    position: absolute !important;
+    left: 10% !important;
+    top: 20% !important;
+    width: 40%;
 }*/
 
 div.slide-bar div.text-slide h1 {
@@ -256,7 +256,7 @@ div.product-category p.title-category {
     color: #242424 !important;
 }
 
-div.product-category p.shop-now a{
+div.product-category p.shop-now a {
     color: #242424 !important;
     text-decoration: none !important;
     border-bottom: 2px solid #cc2121 !important;
@@ -266,3 +266,17 @@ div.product-category .shop-now a:hover {
     color: #CC2121 !important;
     transition: all 0.5s !important;
 }
+
+div.product-category img.img-product-category {
+    min-height: 340px !important;
+}
+
+/* Responsive for div.product-category */
+
+@media (max-width: 576px) {
+    div.product-category img.img-product-category {
+        max-height: 270px !important;
+    }
+}
+
+/*kế hoạch là phần nút btn.add-to-card và btn.option phần div.trend-products khi ở mobile desktop luôn để cho nó hiện*/
