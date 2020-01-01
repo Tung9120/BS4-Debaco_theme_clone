@@ -279,4 +279,7 @@ div.product-category img.img-product-category {
     }
 }
 
-/*kế hoạch là phần nút btn.add-to-card và btn.option phần div.trend-products khi ở mobile desktop luôn để cho nó hiện*/
+div.product-category div.card-img-overlay:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: all 0.5s;
+}
