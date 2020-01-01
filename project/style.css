@@ -247,7 +247,12 @@ div.trend-products div.a-product:hover div.btn-add-to-card {
 }
 
 div.trend-products div.a-product p a.title-product {
-    color: #CC2121 !important;
+    color: #242424 !important;
+}
+
+div.trend-products div.a-product p a.title-product:hover {
+    color: #cc2121 !important;
+    transition: all 0.5s;
 }
 
 /* CSS for div.product-category */
