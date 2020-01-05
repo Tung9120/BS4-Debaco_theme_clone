@@ -289,6 +289,8 @@ div.product-category div.card-img-overlay:hover{
     transition: all 0.5s;
 }
 
+/*css for div.our-product*/
+
 div.our-product div.container div.row div.col-md-3,
 div.col-12>div.card {
     min-width: 270px !important;
