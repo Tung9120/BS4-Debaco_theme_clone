@@ -1,5 +1,5 @@
 * {
-    //font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 /*Css for .welcome */
@@ -288,7 +288,7 @@ div.product-category img.img-product-category {
     }
 }
 
-div.product-category div.card-img-overlay:hover{
+div.product-category div.card-img-overlay:hover {
     background-color: rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
 }
@@ -376,5 +376,36 @@ div.our-product div.a-product p a.title-product {
 div.our-product div.a-product p a.title-product:hover {
     color: #cc2121 !important;
     transition: all 0.5s;
+}
+
+/*css for div.debaco-on-instagram*/
+
+div.debaco-on-instagram div.instagram-imgs div.card {
+    max-width: 215px !important;
+    min-width: 215px !important;
+}
+
+div.debaco-on-instagram a:last-child {
+    height: 100% !important;
+}
+
+div.debaco-on-instagram a:last-child div.card-img-overlay:hover {
+    background: rgba(12, 12, 12, 0.4) !important;
+    transition: all 0.5s !important;
+}
+
+/*responsive for div.debaco-on-instagram*/
+
+@media (min-width: 768px) {
+    div.debaco-on-instagram div.instagram-imgs div.card {
+        margin-right: 7px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    div.debaco-on-instagram div.instagram-imgs div.card {
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+    }
 }
 
