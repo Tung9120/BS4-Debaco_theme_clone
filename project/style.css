@@ -453,6 +453,9 @@ footer div.extra a:hover {
 
 footer div.socials div.btn-social-group a {
     color: #fff !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
 }
 
 footer div.socials div.btn-social-group a.btn-facebook {
@@ -473,4 +476,13 @@ footer div.socials div.btn-social-group a.btn-instagram {
 
 footer div.socials div.btn-social-group a.btn-youtube {
     background-color: #CC332D !important;
+}
+
+/*responsive for div.socials*/
+
+@media (min-width: 768px) {
+    footer div.socials div.btn-social-group a:hover {
+       background: #242424 !important;
+       transition: all 0.5s !important;
+    }
 }
