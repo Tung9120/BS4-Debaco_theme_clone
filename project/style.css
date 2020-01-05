@@ -409,3 +409,17 @@ div.debaco-on-instagram a:last-child div.card-img-overlay:hover {
     }
 }
 
+/*css for footer*/
+
+footer{
+    background-color: #f6f6f6 !important;
+}
+
+footer a.title-theme{
+    color: #242424 !important;
+}
+
+footer a.title-theme{
+    text-decoration: none !important;
+}
+
