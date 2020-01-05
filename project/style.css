@@ -486,3 +486,13 @@ footer div.socials div.btn-social-group a.btn-youtube {
        transition: all 0.5s !important;
     }
 }
+
+/*css for footer.end-of-page*/
+
+footer.end-of-page a:first-child{
+    color: #cc2121 !important;
+}
+
+footer.end-of-page a:first-child:hover{
+    color: #cc2121 !important;
+}
