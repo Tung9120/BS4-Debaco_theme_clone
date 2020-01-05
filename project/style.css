@@ -288,3 +288,82 @@ div.product-category div.card-img-overlay:hover{
     background-color: rgba(255, 255, 255, 0.5);
     transition: all 0.5s;
 }
+
+div.our-product div.container div.row div.col-md-3,
+div.col-12>div.card {
+    min-width: 270px !important;
+}
+
+div.our-product div.card-img-product div.btn-add-to-card button {
+    background: #fff !important;
+}
+
+div.our-product div.card-img-product div.btn-add-to-card button:hover {
+    background: #fff !important;
+    color: #cc2121 !important;
+    transition: all 0.5s;
+}
+
+div.our-product div.card-img-product div.btn-option button {
+    background: #fff !important;
+}
+
+div.our-product div.card-img-product div.btn-option button:hover {
+    background: #fff !important;
+    color: #cc2121 !important;
+    transition: all 0.5s;
+}
+
+div.our-product div.text-price span.h5 {
+    color: #CC2121;
+}
+
+div.our-product div.text-price span.h6 {
+    text-decoration: line-through !important;
+}
+
+div.our-product nav.color-select a.c-light-blue {
+    color: #b0c4de !important;
+}
+
+div.our-product nav.color-select a.c-darktan {
+    color: #aa9e78 !important;
+}
+
+div.our-product nav.color-select a.c-gray {
+    color: #808080 !important;
+}
+
+div.our-product nav.color-select a.c-brown {
+    color: #964B00 !important;
+}
+
+/*animation for div.btn-option and div.btn-add-to-card*/
+
+div.our-product div.a-product div.btn-option {
+    display: none !important;
+
+}
+
+div.our-product div.a-product div.btn-add-to-card {
+    display: none !important;
+}
+
+div.our-product div.a-product:hover div.btn-option {
+    display: block !important;
+    transition: all 1s;
+}
+
+div.our-product div.a-product:hover div.btn-add-to-card {
+    display: block !important;
+    transition: all 1s;
+}
+
+div.our-product div.a-product p a.title-product {
+    color: #242424 !important;
+}
+
+div.our-product div.a-product p a.title-product:hover {
+    color: #cc2121 !important;
+    transition: all 0.5s;
+}
