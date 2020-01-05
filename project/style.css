@@ -437,17 +437,40 @@ footer p.e-mail a:hover {
     transition: all 0.5s !important;
 }
 
-footer div.information a:hover{
+footer div.information a:hover {
     text-decoration: none !important;
     color: #CC2121 !important;
     transform: translate(2px, 2px);
     transition: all 0.5s !important;
 }
 
-footer div.extra a:hover{
+footer div.extra a:hover {
     text-decoration: none !important;
     color: #CC2121 !important;
     transform: translate(2px, 2px);
     transition: all 0.5s !important;
 }
 
+footer div.socials div.btn-social-group button {
+    color: #fff !important;
+}
+
+footer div.socials div.btn-social-group button.btn-facebook {
+    background-color: #3B5999 !important;
+}
+
+footer div.socials div.btn-social-group button.btn-twitter {
+    background-color: #1DA1F2 !important;
+}
+
+footer div.socials div.btn-social-group button.btn-google-plus {
+    background-color: #fe6d4c !important;
+}
+
+footer div.socials div.btn-social-group button.btn-instagram {
+    background-color: #c619b8 !important;
+}
+
+footer div.socials div.btn-social-group button.btn-youtube {
+    background-color: #CC332D !important;
+}
