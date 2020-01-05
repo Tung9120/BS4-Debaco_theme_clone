@@ -202,7 +202,7 @@ div.trend-products div.card-img-product div.btn-option button:hover {
 }
 
 div.trend-products div.text-price span.h5 {
-    color: #CC2121;
+    color: #CC2121 !important;
 }
 
 div.trend-products div.text-price span.h6 {
@@ -411,15 +411,43 @@ div.debaco-on-instagram a:last-child div.card-img-overlay:hover {
 
 /*css for footer*/
 
-footer{
+footer {
     background-color: #f6f6f6 !important;
 }
 
-footer a.title-theme{
+footer a.title-theme {
     color: #242424 !important;
 }
 
-footer a.title-theme{
+footer a.title-theme {
     text-decoration: none !important;
+}
+
+footer p.phones a:hover {
+    text-decoration: none !important;
+    color: #CC2121 !important;
+    transform: translate(2px, 2px);
+    transition: all 0.5s !important;
+}
+
+footer p.e-mail a:hover {
+    text-decoration: none !important;
+    color: #CC2121 !important;
+    transform: translate(2px, 2px);
+    transition: all 0.5s !important;
+}
+
+footer div.information a:hover{
+    text-decoration: none !important;
+    color: #CC2121 !important;
+    transform: translate(2px, 2px);
+    transition: all 0.5s !important;
+}
+
+footer div.extra a:hover{
+    text-decoration: none !important;
+    color: #CC2121 !important;
+    transform: translate(2px, 2px);
+    transition: all 0.5s !important;
 }
 
