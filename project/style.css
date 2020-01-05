@@ -451,26 +451,26 @@ footer div.extra a:hover {
     transition: all 0.5s !important;
 }
 
-footer div.socials div.btn-social-group button {
+footer div.socials div.btn-social-group a {
     color: #fff !important;
 }
 
-footer div.socials div.btn-social-group button.btn-facebook {
+footer div.socials div.btn-social-group a.btn-facebook {
     background-color: #3B5999 !important;
 }
 
-footer div.socials div.btn-social-group button.btn-twitter {
+footer div.socials div.btn-social-group a.btn-twitter {
     background-color: #1DA1F2 !important;
 }
 
-footer div.socials div.btn-social-group button.btn-google-plus {
+footer div.socials div.btn-social-group a.btn-google-plus {
     background-color: #fe6d4c !important;
 }
 
-footer div.socials div.btn-social-group button.btn-instagram {
+footer div.socials div.btn-social-group a.btn-instagram {
     background-color: #c619b8 !important;
 }
 
-footer div.socials div.btn-social-group button.btn-youtube {
+footer div.socials div.btn-social-group a.btn-youtube {
     background-color: #CC332D !important;
 }
