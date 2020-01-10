@@ -496,3 +496,11 @@ footer.end-of-page a:first-child{
 footer.end-of-page a:first-child:hover{
     color: #cc2121 !important;
 }
+
+/*css for button teleport to top of page*/
+
+a.scroll-top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
