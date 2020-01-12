@@ -105,7 +105,7 @@ div.navigation-bar nav.navbar ul.navbar-nav li.dropdown:hover>div.dropdown-menu 
     transition: all 0.5s;
 }
 
-div.navigation-bar nav.navbar ul.navbar-nav li:first-child>a {
+div.navigation-bar nav.navbar ul.navbar-nav li:first-child > a {
     color: #cc2121 !important;
 }
 
@@ -123,6 +123,12 @@ div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover {
     transition: all 0.5s;
 }
 
+div.navigation-bar button.search-on-top{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
 /*div.slide-bar div.text-slide{
     text-align: left !important;
     position: absolute !important;
@@ -130,6 +136,8 @@ div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover {
     top: 20% !important;
     width: 40%;
 }*/
+
+/*css for div.slide-bar*/
 
 div.slide-bar div.text-slide h1 {
     color: #242424 !important;
