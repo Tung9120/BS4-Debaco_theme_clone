@@ -451,6 +451,22 @@ footer div.extra a:hover {
     transition: all 0.5s !important;
 }
 
+footer div.socials div.form-to-subscribe input{
+    border-color: #fff !important;
+}
+
+
+footer div.socials div.form-to-subscribe button{
+    background: #fff !important;
+    border-color: #fff !important;
+    color: #242424 !important;
+}
+
+footer div.socials div.form-to-subscribe button:hover{
+    color: #cc2121 !important;
+    transition: all 0.5s !important;
+}
+
 footer div.socials div.btn-social-group a {
     color: #fff !important;
     display: inline-block !important;
@@ -503,4 +519,12 @@ a.scroll-top{
     position: fixed;
     right: 0;
     bottom: 0;
+    width: 45px;
+    height: 45px;
+}
+
+a.scroll-top:hover{
+    background: #242424 !important;
+    border-color: #242424 !important;
+    transition: all 0.5s !important;
 }
