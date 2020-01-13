@@ -35,7 +35,7 @@ div.welcome ul.nav>li.nav-item>div.dropdown-menu>a:hover {
     }
 
     div.navigation-bar span.navbar-text {
-       /*display: none !important;*/
+        /*display: none !important;*/
     }
 
     div.slide-bar div.text-slide h1 {
@@ -105,7 +105,7 @@ div.navigation-bar nav.navbar ul.navbar-nav li.dropdown:hover>div.dropdown-menu 
     transition: all 0.5s;
 }
 
-div.navigation-bar nav.navbar ul.navbar-nav li:first-child > a {
+div.navigation-bar nav.navbar ul.navbar-nav li:first-child>a {
     color: #cc2121 !important;
 }
 
@@ -123,13 +123,13 @@ div.navigation-bar div.row nav.navbar li.nav-item div.d-lg-flex a.a1:hover {
     transition: all 0.5s;
 }
 
-div.navigation-bar button.search-on-top{
+div.navigation-bar button.search-on-top {
     background-color: #fff !important;
     border-color: #fff !important;
     color: rgba(0, 0, 0, 0.5) !important;
 }
 
-div.navigation-bar button.search-on-top:hover{
+div.navigation-bar button.search-on-top:hover {
     color: #cc2121 !important;
     transition: all 0.5s !important;
 }
@@ -417,6 +417,11 @@ div.debaco-on-instagram a:last-child div.card-img-overlay:hover {
         margin-right: 0px !important;
         margin-left: 0px !important;
     }
+
+    div.debaco-on-instagram div.instagram-imgs div.card {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
 }
 
 /*css for footer*/
@@ -461,18 +466,18 @@ footer div.extra a:hover {
     transition: all 0.5s !important;
 }
 
-footer div.socials div.form-to-subscribe input{
+footer div.socials div.form-to-subscribe input {
     border-color: #fff !important;
 }
 
 
-footer div.socials div.form-to-subscribe button{
+footer div.socials div.form-to-subscribe button {
     background: #fff !important;
     border-color: #fff !important;
     color: #242424 !important;
 }
 
-footer div.socials div.form-to-subscribe button:hover{
+footer div.socials div.form-to-subscribe button:hover {
     color: #cc2121 !important;
     transition: all 0.5s !important;
 }
@@ -508,24 +513,24 @@ footer div.socials div.btn-social-group a.btn-youtube {
 
 @media (min-width: 768px) {
     footer div.socials div.btn-social-group a:hover {
-       background: #242424 !important;
-       transition: all 0.5s !important;
+        background: #242424 !important;
+        transition: all 0.5s !important;
     }
 }
 
 /*css for footer.end-of-page*/
 
-footer.end-of-page a:first-child{
+footer.end-of-page a:first-child {
     color: #cc2121 !important;
 }
 
-footer.end-of-page a:first-child:hover{
+footer.end-of-page a:first-child:hover {
     color: #cc2121 !important;
 }
 
 /*css for button teleport to top of page*/
 
-a.scroll-top{
+a.scroll-top {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -533,7 +538,7 @@ a.scroll-top{
     height: 45px;
 }
 
-a.scroll-top:hover{
+a.scroll-top:hover {
     background: #242424 !important;
     border-color: #242424 !important;
     transition: all 0.5s !important;
