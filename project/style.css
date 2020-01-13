@@ -31,11 +31,11 @@ div.welcome ul.nav>li.nav-item>div.dropdown-menu>a:hover {
 
 @media screen and (max-width: 768px) {
     div.welcome {
-        display: none !important;
+        /*display: none !important;*/
     }
 
     div.navigation-bar span.navbar-text {
-        display: none !important;
+       /*display: none !important;*/
     }
 
     div.slide-bar div.text-slide h1 {
@@ -129,13 +129,10 @@ div.navigation-bar button.search-on-top{
     color: rgba(0, 0, 0, 0.5) !important;
 }
 
-/*div.slide-bar div.text-slide{
-    text-align: left !important;
-    position: absolute !important;
-    left: 10% !important;
-    top: 20% !important;
-    width: 40%;
-}*/
+div.navigation-bar button.search-on-top:hover{
+    color: #cc2121 !important;
+    transition: all 0.5s !important;
+}
 
 /*css for div.slide-bar*/
 
@@ -145,6 +142,11 @@ div.slide-bar div.text-slide h1 {
 
 div.slide-bar div.text-slide button {
     background-color: #242424 !important;
+}
+
+div.slide-bar div.text-slide button:hover {
+    background: #cc2121 !important;
+    transition: background 0.5s !important;
 }
 
 /*css for div.promotion*/
