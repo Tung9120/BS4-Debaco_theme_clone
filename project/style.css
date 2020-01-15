@@ -46,7 +46,7 @@ div.welcome ul.nav>li.nav-item>div.dropdown-menu>a:hover {
         width: 100% !important;
         text-align: left !important;
         position: absolute !important;
-        padding-bottom: 0;
+        //padding-bottom: 0;
     }
 
 }
@@ -62,16 +62,10 @@ div.welcome ul.nav>li.nav-item>div.dropdown-menu>a:hover {
     }
 }
 
-.container {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.row {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+@media (max-width: 415px) {
+    div.slide-bar div.carousel-item img {
+        min-height: 200px !important;
+    }
 }
 
 /*Css for .navigation-bar*/
