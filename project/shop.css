@@ -35,3 +35,11 @@ div.list-product button.filter:hover{
 	transition: 0.3s !important;
 }
 
+div.list-product li.input-group-checkbox:hover label{
+	color: #cc2121 !important;
+	transition: all 0.3s !important;
+}
+
+div.list-product li.input-group-checkbox{
+	font-family: 'tahoma', sans-serif !important;
+}
