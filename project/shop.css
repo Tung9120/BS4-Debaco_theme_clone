@@ -28,3 +28,10 @@ div.list-product ul li:hover a.badge-pill{
     transition: all 0.3s !important;
 }
 
+div.list-product button.filter:hover{
+	background: #cc2121 !important;
+	border-color: #cc2121 !important;
+	color: #fff !important;
+	transition: 0.3s !important;
+}
+
