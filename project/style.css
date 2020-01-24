@@ -1,5 +1,6 @@
-* {
-    font-family: 'Roboto', sans-serif !important;
+/*General*/
+*{
+    font-family: 'Roboto', 'Tahoma', sans-serif;
 }
 
 /*Css for .welcome */

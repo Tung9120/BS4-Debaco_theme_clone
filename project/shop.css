@@ -1,0 +1,30 @@
+/*General*/
+*{
+	font-family: 'Roboto', 'Tahoma', sans-serif;
+}
+
+/*CSS FOR div.list-product*/
+
+div.list-product ul li a:hover {
+    color: #cc2121 !important;
+    text-decoration: none !important;
+    transition: all 0.3s !important;
+}
+
+div.list-product ul li:hover a{
+    color: #cc2121 !important;
+    text-decoration: none !important;
+    transition: all 0.3s !important;
+}
+
+div.list-product ul li a.badge-pill{
+	background: #f6f6f6 !important;
+}
+
+div.list-product ul li:hover a.badge-pill{
+    color: #fff !important;
+    text-decoration: none !important;
+    background: #cc2121 !important;
+    transition: all 0.3s !important;
+}
+
