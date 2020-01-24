@@ -1,0 +1,16 @@
+/*CSS FOR div.title-wishlist*/
+
+div.title-wishlist {
+    background-color: #f6f6f6 !important;
+}
+
+div.title-wishlist ol {
+    background: #f6f6f6 !important;
+}
+
+div.title-wishlist ol li a:hover {
+    color: #cc2121 !important;
+    text-decoration: none !important;
+    transition: all 0.5s !important;
+}
+
