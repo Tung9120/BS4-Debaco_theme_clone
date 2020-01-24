@@ -11,6 +11,43 @@ div.title-wishlist ol {
 div.title-wishlist ol li a:hover {
     color: #cc2121 !important;
     text-decoration: none !important;
-    transition: all 0.5s !important;
+    transition: all 0.3s !important;
 }
+
+/*CSS FOR div.table-product*/
+
+div.table-product table thead{
+	background: #cc2121 !important;
+}
+
+div.table-product table tbody img{
+	max-width: 120px !important;
+}
+
+div.table-product table tbody a:hover{
+	color: #cc2121 !important;
+    text-decoration: none !important;
+    transition: all 0.3s !important;
+}
+
+div.table-product table tbody button{
+	background: #cc2121 !important;
+}
+
+div.table-product table tbody button:hover{
+	background: #242424 !important;
+	border-color: #242424 !important;
+	transition: all 0.3s !important;
+}
+
+div.table-product table tbody button[disabled]{
+	background: #dc3545 !important;
+	border-color: #dc3545 !important;
+}
+
+div.table-product table tbody button[disabled]:hover{
+	border-color: #dc3545 !important;
+	background: #dc3545 !important;
+}
+
 
