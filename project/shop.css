@@ -43,3 +43,18 @@ div.list-product li.input-group-checkbox:hover label{
 div.list-product li.input-group-checkbox{
 	font-family: 'tahoma', sans-serif !important;
 }
+
+div.list-product div.bg-for-pagination{
+    background: #f6f6f6 !important;
+}
+
+div.list-product div.bg-for-pagination nav a:hover{
+    background: #cc2121 !important;
+    color: #fff !important;
+    transition: all 0.3s !important;
+}
+
+div.list-product div.bg-for-pagination nav a.active{
+     background: #cc2121 !important;
+    color: #fff !important;
+}
