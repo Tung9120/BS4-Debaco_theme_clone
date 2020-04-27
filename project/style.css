@@ -84,8 +84,8 @@ div.welcome ul.nav>li.nav-item>div.dropdown-menu>a:hover {
 }
 
 .navigation-bar .notify {
-    top: 0;
-    left: 69%;
+    top: 10%;
+    left: 56%;
     background: #cc2121 !important;
 }
 
